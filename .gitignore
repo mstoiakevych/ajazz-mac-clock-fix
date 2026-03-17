@@ -1,10 +1,35 @@
-# Byte-compiled / optimized / DLL files
+# =========================
+# macOS & Apple System Files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================
+# Xcode & Swift
+# =========================
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.swiftpm/
+*.o
+*.d
+*.dia
+
+# =========================
+# Python (Linux Daemon)
+# =========================
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Distribution / packaging
-.build/
+*.so
+.Python
+env/
 build/
 develop-eggs/
 dist/
@@ -17,58 +42,24 @@ parts/
 sdist/
 var/
 wheels/
-pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 
-# Virtual environments
-env/
+# Віртуальні середовища (Virtual Environments)
 venv/
-.venv/
+.env
+.venv
+env/
 ENV/
 env.bak/
 venv.bak/
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-pytest_cache/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# mypy / type checking
-.mypy_cache/
-.dmypy.json
-dmypy.json
-.pyre/
-.pytype/
-
-# IDE / editor settings
+# =========================
+# IDEs & Editors
+# =========================
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# OS files
-.DS_Store
-Thumbs.db
